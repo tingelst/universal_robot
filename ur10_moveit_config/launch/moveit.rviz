@@ -11,7 +11,7 @@ Panels:
         - /MotionPlanning1/Planning Metrics1
         - /MotionPlanning1/Planned Path1
       Splitter Ratio: 0.74256
-    Tree Height: 577
+    Tree Height: 525
   - Class: rviz/Help
     Name: Help
   - Class: rviz/Views
@@ -42,7 +42,9 @@ Visualization Manager:
       Value: true
     - Class: moveit_rviz_plugin/MotionPlanning
       Enabled: true
+      Move Group Namespace: /ur10
       MoveIt_Goal_Tolerance: 0
+      MoveIt_Planning_Attempts: 1
       MoveIt_Planning_Time: 5
       MoveIt_Use_Constraint_Aware_IK: true
       MoveIt_Warehouse_Host: 127.0.0.1
@@ -124,7 +126,7 @@ Visualization Manager:
         Show Workspace: false
         Start State Alpha: 1
         Start State Color: 0; 255; 0
-      Planning Scene Topic: /ur10/move_group/monitored_planning_scene
+      Planning Scene Topic: /ur10/planning_scene
       Robot Description: robot_description
       Scene Geometry:
         Scene Alpha: 1
@@ -210,9 +212,9 @@ Visualization Manager:
         Swap Stereo Eyes: false
         Value: false
       Focal Point:
-        X: 0.747697
-        Y: -0.20044
-        Z: 3.42727e-07
+        X: 0.737368
+        Y: -0.194567
+        Z: 8.19564e-07
       Name: Current View
       Near Clip Distance: 0.01
       Pitch: 0.464797
@@ -223,16 +225,16 @@ Visualization Manager:
 Window Geometry:
   Displays:
     collapsed: false
-  Height: 1418
+  Height: 1440
   Help:
     collapsed: false
   Hide Left Dock: false
   Hide Right Dock: false
   Motion Planning:
     collapsed: false
-  QMainWindow State: 000000ff00000000fd0000000100000000000002a200000531fc0200000005fb000000100044006900730070006c006100790073010000003e000002d5000000d000fffffffb0000000800480065006c00700000000342000000bb0000007000fffffffb0000000a0056006900650077007300000003b0000000b0000000a800fffffffb0000000c00430061006d00650072006100000002ff000001610000000000000000fb0000001e004d006f00740069006f006e00200050006c0061006e006e0069006e00670100000319000002560000016100ffffff000002560000053100000001000000020000000100000002fc0000000100000002000000010000000a0054006f006f006c00730100000000ffffffff0000000000000000
+  QMainWindow State: 000000ff00000000fd0000000100000000000002a200000547fc0200000005fb000000100044006900730070006c006100790073010000003e000002a1000000d000fffffffb0000000800480065006c00700000000342000000bb0000007000fffffffb0000000a0056006900650077007300000003b0000000b0000000a800fffffffb0000000c00430061006d00650072006100000002ff000001610000000000000000fb0000001e004d006f00740069006f006e00200050006c0061006e006e0069006e006701000002e5000002a00000017400ffffff000007580000054700000001000000020000000100000002fc0000000100000002000000010000000a0054006f006f006c00730100000000ffffffff0000000000000000
   Views:
     collapsed: false
-  Width: 1278
-  X: 1280
-  Y: 20
+  Width: 2560
+  X: 0
+  Y: 0
